@@ -1,0 +1,218 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-image: url("media/whole.jpg");
+
+  background-repeat: repeat;
+}
+
+/* Navigation */
+.logo {
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.733);
+  height: 5em;
+  position: sticky;
+}
+
+#logo {
+  height: 5em;
+  float: left;
+}
+.NavO {
+  color: beige;
+  font-size: larger;
+  text-decoration: none;
+  padding-top: 1.5em;
+  padding-bottom: 1.3em;
+  text-align: center;
+  padding-left: 17px;
+  padding-right: 17px;
+  float: left;
+}
+#Contact {
+  font-size: larger;
+  text-decoration: none;
+  margin: 1.4%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 17px;
+  padding-right: 17px;
+  float: right;
+  color: white;
+  background-color: teal;
+  border-radius: 30px;
+}
+
+#home {
+  background: aqua;
+}
+#Contact:hover {
+  background-color: rgb(123, 182, 216);
+  box-shadow: black, 5px;
+}
+
+.NavO:hover {
+  background-color: rgb(7, 6, 6);
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: larger;
+  border: none;
+  outline: none;
+  color: white;
+  padding-top: 1.5em;
+  padding-bottom: 1.3em;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(7, 6, 6);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.733);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  float: none;
+  z-index: 30;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(7, 6, 6);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Navigation */
+
+/* Poster */
+.poster {
+  background-image: url("media/part1.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 5px;
+  border-radius: 30px;
+}
+
+.myImg {
+  float: left;
+  height: 15em;
+  border-radius: 10em;
+  padding: 10px;
+  margin: 5px;
+}
+#Main {
+  text-align: end;
+  font-weight: bolder;
+  color: #eec8a5;
+  font-size: 330%;
+}
+p2 {
+  display: block;
+  padding: 15px;
+  margin: 15px;
+  text-align: left;
+  font-weight: lighter;
+  color: #eec8a5;
+  font-size: 200%;
+}
+.poster3 {
+  background-image: url("media/pexel4.jpg");
+  border-radius: 30px;
+  display: block;
+  padding: 15px;
+  margin: 15px;
+  text-align: left;
+  font-weight: lighter;
+  color: #1f2229;
+  font-size: 150%;
+  text-shadow: rgb(27, 55, 92) 0.6px 0.6px;
+}
+/* Poster */
+
+/* Body*/
+.portrait {
+  background-color: rgba(0, 0, 0, 0.733);
+  border-radius: 30px;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.HeadP {
+  font-size: 350%;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  color: rgba(197, 197, 197, 0.986);
+  background-color: rgba(0, 0, 0, 0.733);
+  border-radius: 15px;
+  position: sticky;
+  top: 0;
+}
+.photos {
+  flex-wrap: nowrap;
+  padding: 3px;
+  margin: 4px;
+  border-radius: 19px;
+}
+
+/* body */
+
+/*Footer*/
+.footer1 {
+  background-color: rgba(0, 0, 0, 0.733);
+  border-radius: 15px;
+}
+.follow {
+  padding-top: 15px;
+  display: block;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+}
+
+.SocialIcon {
+  height: 30px;
+  margin: 1%;
+}
+.SocialIcon:hover {
+  height: 31px;
+}
+.Icon {
+  padding-left: 45%;
+}
+.Email {
+  padding-top: 15px;
+  display: block;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+}
+.Email:hover {
+  text-decoration: underline;
+  font-size: 17px;
+}
+.RR {
+  font-weight: lighter;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
